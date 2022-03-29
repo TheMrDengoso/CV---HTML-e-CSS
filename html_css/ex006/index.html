@@ -5,6 +5,11 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <style>
+        mark{
+            background-color: blueviolet;
+        }
+    </style>
     <title>Formatação de Textos</title>
 </head>
 <body>
@@ -15,5 +20,18 @@
     <h2>Itálico / Ênfase</h2>
     <p>Neste texto será uma parte que <em>ficará em Itálico</em> utilizando a tag &lt;em&gt;</p>
     <p>Não utilizar mais o <em>&lt;i&gt;</em> para deixar <em>itálico</em> e sim a <em>tag &lt;em&gt;</em>, pois ela é mais <em>semântica</em></p>
+    <h2>Texto Marcado</h2>
+    <p>Este texto iá ter alguma parte <mark>dele</mark> marcada que padrão é amarela. Porém o style no &lt;head&gt; está prioritário</p>
+    <p>Aqui irei trocar a cor da marcação pelo parâmetro <strong>style</strong> dentro da tag &lt;mark&gt; aqui é o <mark style="background-color: aqua;">exemplo</mark>.</p>
+    <p>Podemos também trocar a cor do marcado com o &lt;style&gt; no &lt;head&gt; aqui mesmo é um exemplo de <mark>cor trocada</mark>.</p>
+    <h2>Texto Deletado</h2>
+    <p>Aqui terá um parte do texto onde ficará <del>uma parte em riscada como se tivesse sinalizado</del> que foi feita uma correção sobre aquela parte do texto. Usamos o &lt;del&gt;</p>
+    <h2>Texto Inserido</h2>
+    <p>Neste trecho do código terá um parte onde <ins>estará sublinhado sinalizando</ins> que foi inserido ou que aquele trecho tenha certo destaque sobre os demais. Usamos a tag &lt;ins&gt;</p>
+    <p>Também existe a tag &lt;u&gt; porém não iremos mais utilizar.</p>
+    <h2>Texto Sobrescrito</h2>
+    <p>Aqui podemos utiliza para até caso utilizarmos fórmulas tipo X<sup>2-1</sup> usando a tag &lt;sup&gt; deixa o texto Sobrescrito</p>
+    <h2>Texto Subscrito</h2>
+    <p>Aqui deixaremos tipo H<sub>2</sub>0 ou CO<sub>2</sub> com a tag &lt;sub&gt;</p>
 </body>
 </html>
