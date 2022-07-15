@@ -9,12 +9,17 @@
 </head>
 <body>
     <h1>Imagens flexíveis</h1>
-    <p>Abaixo está sendo utilizado a tag &lt;picture&gt; e dentro da tag a outra tag &lt;source&gt;</p>
-    <p>Dentro da tag &lt;source&gt; é onde está determinado em qual tamanho de pixels a imagem será transformada para que caiba melhor no navegador.</p>
+    <p>Abaixo está sendo utilizado a tag <strong>&lt;picture&gt;</strong> e dentro da tag a outra tag &lt;source&gt;</p>
+    <p>Dentro da tag <strong>&lt;source&gt;</strong> é onde está determinado em qual tamanho de pixels a imagem será transformada para que caiba melhor no navegador.</p>
     <picture>
         <source media="(max-width: 750px)" srcset="imagens/img_p.png" type="image/png">
         <source media="(max-width: 1050px)" srcset="imagens/img_m.png" type="image/png">
         <img src="imagens/img_g.png" alt="Imagem Flexível">
     </picture>
+
+    <h2>Audios</h2>
+    <p>Iremos utilizar a tag <strong>&gt;audio&lt;</strong> para inserir audio no HTML 5</p>
+    <p>Nesta tag utilizamos os parametros de <strong><ins>controls</ins></strong> para que apareça os controles para o usuário manipular a música <strong><ins>preload</ins></strong>="metadata" para que seja carregado os controls e uma pequena parte inicial do audio. Mas o audio só vai ser carregado quando o usuário der play.</p>
+    <audio preload="metadata" src="midia/Escapism - Yung Logos.mp3" controls></audio>
 </body>
 </html>
