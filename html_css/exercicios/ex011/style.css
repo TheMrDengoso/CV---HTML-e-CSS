@@ -1,0 +1,24 @@
+@charset "UTF-8";
+body{
+    background-color: lightgreen;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+}
+h1{
+    color: blue;
+    background-color: lightgoldenrodyellow;
+}
+h2{
+    color: lightpink;
+    background-color: midnightblue;
+}
+p{
+    text-align: justify;
+    color: indigo;
+    background-color: darkgrey;
+}
+
+a{
+    background-color: darkred;
+    color: white;
+}
